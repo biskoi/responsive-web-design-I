@@ -91,24 +91,16 @@ Navbar
 }
 
 nav{
-	display: flex;
-	align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
 }
 
 nav a{
 	color: grey;
 	text-decoration: none;
 }
-
-
-nav{
-display: flex;
-justify-content: space-between;
-width: 100%;
-}
-
-
-
 
 /*pagetop*/
 
@@ -295,7 +287,7 @@ width: 50%;
 	 border-bottom: grey 2px solid;
 	}
 	
-.navServices{
+	.navServices{
 	border-top: grey 2px solid;
 	}
 
