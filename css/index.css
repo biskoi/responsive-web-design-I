@@ -90,7 +90,7 @@ Navbar
 	max-width: 100%;
 }
 
-nav {
+nav{
 	display: flex;
 	align-items: center;
 }
@@ -283,8 +283,36 @@ width: 50%;
 }
 
 @media (max-width: 500px){
- body{ 
-	 background-color: blue;
- }
+
+	nav {
+		flex-direction: column;
+	}
+
+	nav a {
+	 padding: 5%;
+	 width: 100%;
+	 text-align: center;
+	 border-bottom: grey 2px solid;
+	}
+	
+#navServices{
+	border-top: grey 2px solid;
+	}
+
+	.contentTop{
+		flex-direction: column;
+	}
+
+	.contentTop div{
+		padding: 3% 0 3% 0;
+	}
+
+	.contentBottom{
+		flex-direction: column;
+	}
+
+	.contentBottom div{
+		padding: 3% 0 3% 0;
+	}
 
 }
